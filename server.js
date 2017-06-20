@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 
 // Create server
 var app = express();
-var port = 3000;
+var port = process.env.PORT||3000;
 app.listen(port, function(){
     console.log('Connect success');
 });
