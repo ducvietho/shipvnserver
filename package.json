@@ -2,9 +2,10 @@
   "name": "shipvnserver",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node ./server"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +18,8 @@
     "mongoose": "^4.10.7",
     "spooky": "^0.2.5",
     "tiny-jsonrpc": "^2.0.1"
+  },
+  "engines":{
+    "node":"6.10.3"
   }
 }
