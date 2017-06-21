@@ -6,7 +6,7 @@ var facebook = require('../models/facebook');
 var accessToken = constant.getAccessToken();
 var cheerio = require('cheerio');
 
-// realTime();
+realTime();
 function realTime() {
     for (var i = 0; i < allConstant.length; i++) {
         setInterval(function (i) {
