@@ -147,7 +147,9 @@ function facebook_html_feed(idGroup) {
                     //tai khoan va mat khau facebook da tham gia vao cac nhom tren facebook
                     document.getElementById("email").value = "thanhtung.tvg01@gmail.com";
                     document.getElementById("pass").value = "nguyentung956";
+console.log(document.getElementById("pass").value);
                     document.getElementById("loginbutton").children[0].click();
+console.log('123');
                 });
             });
 
