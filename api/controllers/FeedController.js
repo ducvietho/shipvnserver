@@ -145,8 +145,8 @@ function facebook_html_feed(idGroup) {
                 console.log("Login using username and password");
                 this.evaluate(function () {
                     //tai khoan va mat khau facebook da tham gia vao cac nhom tren facebook
-                    document.getElementById("email").value = "shipvn95@gmail.com";
-                    document.getElementById("pass").value = "shipvn123456789";
+                    document.getElementById("email").value = "thanhtung.tvg01@gmail.com";
+                    document.getElementById("pass").value = "nguyentung956";
                     document.getElementById("loginbutton").children[0].click();
                 });
             });
